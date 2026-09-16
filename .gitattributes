@@ -1,0 +1,12 @@
+# Classificação de linguagem no GitHub.
+#
+# O GitHub conta bytes de código para decidir a linguagem do repositório, e os
+# scripts de construção em Python pesam mais que os módulos VBA. Sem isto o
+# projeto aparece como Python, quando o que ele demonstra é VBA e Power Query.
+build/*.py linguist-vendored
+*.bas linguist-language=VBA
+*.m linguist-language=M
+
+# Fim de linha: o editor VBA espera CRLF.
+*.bas text eol=crlf
+*.m text eol=crlf
