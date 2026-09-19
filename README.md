@@ -1,4 +1,4 @@
-# conciliador-folha
+# payroll-reconciler
 
 Conciliador de folha de pagamento em Excel, Power Query e VBA. Compara duas
 competências, aplica nove regras de exceção e devolve a lista do que precisa
